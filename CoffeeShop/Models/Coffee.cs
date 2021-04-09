@@ -10,6 +10,8 @@ namespace CoffeeShop.Models
         [StringLength(50, MinimumLength = 3)]
         public string Title { get; set; }
 
+        public BeanVariety beanVariety { get; set; }
+
         public int BeanVarietyId { get; set; }
 
 
